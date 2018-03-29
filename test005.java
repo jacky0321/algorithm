@@ -1,7 +1,9 @@
 package algorithm;
 
 import java.util.Scanner;
-
+/*
+ * º∆À„ i%j ∑Ω Ω
+ */
 public class test005 {
 
 	public static void getNum(int n, int k) {
