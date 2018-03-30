@@ -52,9 +52,9 @@ public class test005 {
 		Scanner scanner = new Scanner(System.in);
 		int n = scanner.nextInt();
 		int k = scanner.nextInt();
-		long start = System.currentTimeMillis();
-		getNum2(n, k);
-		long end = System.currentTimeMillis();
-		System.out.println(end - start + " ms");
+//		long start = System.currentTimeMillis();
+//		getNum2(n, k);
+//		long end = System.currentTimeMillis();
+//		System.out.println(end - start + " ms");
 	}
 }
