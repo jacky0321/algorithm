@@ -28,15 +28,14 @@ public class test004 {
 	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		int length = scanner.nextInt();
-		String[] strings = new String[length];
-		
-		for(int i = 0; i < length; i++) {
-			strings[i] = scanner.next();
-		}		
-		
-		for(int i = 0; i < length; i++) {
-			System.out.println(lps(strings[i]));
+		String string = scanner.nextLine();
+		int max = 1;
+		for(int i = 0; i < string.length(); i++) {
+			for(int j = i; j < string.length() + 1; j++) {
+				max = Math.max(lps(string.substring(i, j)), max);
+			}
 		}
+		
+		System.out.println(max);
 	}
 }
