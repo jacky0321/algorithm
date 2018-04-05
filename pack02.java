@@ -8,6 +8,10 @@ import java.util.Set;
 
 public class pack02 {
 	public static void main(String[] args) {
+		byte d = 10;
+		int b = -d;
+		System.out.println(b);
+		
 		Scanner scanner = new Scanner(System.in);
 		int size = Integer.valueOf(scanner.nextLine());
 		String[] ww = scanner.nextLine().split(" ");
@@ -69,7 +73,8 @@ public class pack02 {
 		int j = c;
 		int yuansu = 0;
 		while (i > 0) {
-			if (G[i][j] == 1) {
+			if (G[i][j] 
+					== 1) {
 
 				result[yuansu++] = i;
 				j -= w[i];
