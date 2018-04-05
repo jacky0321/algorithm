@@ -5,6 +5,7 @@ class A {
         System.out.println("AµÄ¾²Ì¬¿é");
     }
     private static String staticStr = getStaticStr();
+
     private String str = getStr();
     {
         System.out.println("AµÄÊµÀý¿é");
