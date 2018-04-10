@@ -38,8 +38,6 @@ public class test022 {
 	}
 	
 	public static void main(String[] args) {
-		String[] sssss = {"(", ")" ,"(", ")"};
-		isOk(sssss);
 		Scanner scanner = new Scanner(System.in);
 		String string = scanner.nextLine();
 		String[] strings = string.split(" ");
