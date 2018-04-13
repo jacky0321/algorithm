@@ -46,5 +46,10 @@ public class test026 {
 		System.out.println(searchTreeCount(n));
 		long fin = System.currentTimeMillis();
 		System.out.println(fin - end + " ms");
+		
+//		4861946401452
+//		2 ms
+//		4861946401452
+//		970749 ms
 	}
 }
